@@ -57,7 +57,7 @@ cp .env.example .env
 ```
 Fill in the environment variables:
 ```env
-HUNAR_API_KEY=hunar_va_live_sk_tX6DKgRHGT38JypWk6WtC8ATeJTr6-ZXRBUq9wzIkKbUDeB3kGtZWg
+HUNAR_API_KEY=your_api_key_here
 
 # Optional: Search API Keys
 APOLLO_API_KEY=
