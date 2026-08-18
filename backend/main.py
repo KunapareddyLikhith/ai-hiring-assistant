@@ -11,8 +11,8 @@ from sqlalchemy.orm import Session
 from dotenv import load_dotenv
 
 # Import our database modules
-from database import get_db, init_db, CallLog, AttendanceLog
-from search_service import SearchService
+from .database import get_db, init_db, CallLog, AttendanceLog
+from .search_service import SearchService
 
 load_dotenv()
 
