@@ -28,7 +28,7 @@ import {
   Database
 } from "lucide-react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "";
 
 export default function Home() {
   // Navigation

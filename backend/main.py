@@ -36,7 +36,7 @@ app.add_middleware(
 
 # Constants
 HUNAR_API_URL = "https://api.voice.hunar.ai/external/v1"
-HUNAR_API_KEY = os.getenv("HUNAR_API_KEY", "hunar_va_live_sk_tX6DKgRHGT38JypWk6WtC8ATeJTr6-ZXRBUq9wzIkKbUDeB3kGtZWg")
+HUNAR_API_KEY = os.getenv("HUNAR_API_KEY", "")
 
 # Initialize Search Service
 candidates_file = os.path.join(os.path.dirname(__file__), "candidates.json")
